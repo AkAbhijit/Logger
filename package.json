@@ -1,0 +1,32 @@
+{
+  "name": "logger.ts",
+  "version": "1.0.0",
+  "description": "A modern, colorful, emoji-rich logger built with TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "logger",
+    "typescript",
+    "chalk",
+    "console",
+    "modern",
+    "emoji",
+    "table"
+  ],
+  "author": "akabhijit",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "cli-table3": "^0.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
